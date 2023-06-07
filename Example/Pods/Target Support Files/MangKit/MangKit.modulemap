@@ -1,0 +1,6 @@
+framework module MangKit {
+  umbrella header "MangKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
