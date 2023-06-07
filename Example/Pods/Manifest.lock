@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MangKit (0.1.0)
+  - MangKit (0.4.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MangKit: 1d00b474566be7df212b460e1dff27bd8a372e3e
+  MangKit: 9ef053da01a8e4c505ee90960c874759d6fdaa76
 
 PODFILE CHECKSUM: e835b5d7994b03fb1e4ba12fc6097734dd906c4f
 

@@ -7,91 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046A35E6C647ED690156E8E6796AF52C /* MKSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA78E3417BFDA3486DC19C4CFE211281 /* MKSettingsController.swift */; };
-		08F2739C9CB1C554190A3D67EDCD60D8 /* MKProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5B84AE0C5AFDED2AD32DD1FB68491 /* MKProtocol.swift */; };
-		0935CAF3CA72C964483A2724A0FB2434 /* MKMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EEEEA983FC44FC6BBC750823C20411 /* MKMenuCollectionViewCell.swift */; };
-		10613CABBF3A836EA40067C51BA2A6BA /* MKMenuFuncDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB02C8BD6B0703E735F90F7F3919F12 /* MKMenuFuncDelegate.swift */; };
-		128365B95AA45488772A3627A1530321 /* MKMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056E049C5D689711DE2E3C4833F288C /* MKMenuViewController.swift */; };
+		045A74C4F5C2B2352AFCE71F72174D60 /* MKDetailsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E9F4BEDA0820C573678C055ECB4275 /* MKDetailsController_iOS.swift */; };
+		0EA87AD0670E7EE174D0AD9B4190E5A1 /* MK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8707F1424F70E593BAC3506957B55 /* MK.swift */; };
 		13CF573644AB6FAB4F300B76AC719E7D /* Pods-MangKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6C7148FDADE658D63C023F5546336B /* Pods-MangKit_Example-dummy.m */; };
-		1C51FE61115CFE75C46EA57ECA8E0AE7 /* MKGenericBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6952ABA96A6740085B3E0E43ED650FB8 /* MKGenericBodyDetailsController.swift */; };
+		14F71BEAEF027073FBDE96845B417535 /* MKURLDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFF865A91F2A217B8197560D2016E3 /* MKURLDetailsController.swift */; };
+		19C63712AB2F60806700B40EEEED9F4E /* MKRawBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD56A6CFFC0CABC782B5AF4A9DCD2768 /* MKRawBodyDetailsController.swift */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20145902EDEEA1C2CD367A9A4DB15684 /* MKJSBridgeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B358A67C6C00321DD69A1E77C9624C /* MKJSBridgeListViewController.swift */; };
-		23A158F9BE4BA72AF7E94135735C9016 /* MKInfoController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74464C07440DBE0721B59FC2CFA242BA /* MKInfoController_iOS.swift */; };
+		2049399F327000AC0DC04EB3B0BE809A /* MKH5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777790E0E510B922976930CB1B7F211 /* MKH5ViewController.swift */; };
+		20AF1A445F188F08ADE0E5F406908D33 /* icon_mk_H5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF2C74576726223964CD575A4BA94B6 /* icon_mk_H5.png */; };
+		220A8425E278DEB9F1BEC3B10789366B /* icon_mk_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE7B3E36221BD4F85BDD7ADAFAB5ABD /* icon_mk_clear.png */; };
+		246D0C40CB91E2AA7870828B08EDBE82 /* MKFloatingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8299525DDD8398182BF8C1FF6A6DAB /* MKFloatingBtn.swift */; };
+		27E853C3C033074D9836B29EECCF3CE3 /* MKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04D828BFED4F4737588F1A933F7C864 /* MKHelper.swift */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2A61296A266503F8DD716D2B9FEA206B /* MKImageBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C217D59C4C76731A079EE123562F8F0 /* MKImageBodyDetailsController.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
 		2EA60143440A5BBA2B9DC5A53D771FA8 /* Pods-MangKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC978CEC69F8ECCDBBE1E9DAD133EB67 /* Pods-MangKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		2FBB25A932D998992AD2F2ADA8B1573B /* MKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CE6B5517ACBE07CCAE4A5BDAD326F /* MKHelper.swift */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		312B800632B2BA428D9378D3ED14FD68 /* MKURLDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C4B215F0C20C7318804E063EA3F2F8 /* MKURLDetailsController.swift */; };
-		33C37BE46530E833171C5A9F0668BC26 /* MKImageBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C18EDA119DE5F04A741B7931DC98F /* MKImageBodyDetailsController.swift */; };
-		36511953811690813A7CBE39A5D9A8EA /* MangKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1501745B96497E4E8BEADCB728CF2F8 /* MangKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370025539C9AE71825B54953982BC542 /* MKMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CBBE879C62F5682AC0BDF8A15E32B4 /* MKMenuViewController.swift */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3E4841335202BE89C760D3039DB84A21 /* MKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7154FBAB111AD6D2BEEC500DDE20D4 /* MKConstants.swift */; };
-		3F80D15C088888A526883EB912D10D90 /* MKDetailsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F010ED42E19DF0A5904C03FBC22CFD1 /* MKDetailsController_iOS.swift */; };
-		501F91D1FD0BA98334BBA31F63CAC80C /* MKAuthenticationChallengeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAACB397261D23680BC68B0C8D13B96 /* MKAuthenticationChallengeSender.swift */; };
+		3BC541298F39EC7D6C88E4547BD3CAFD /* MKJSModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7263225D53C894402367AA1494FC6A /* MKJSModelManager.swift */; };
+		404702B5B4B2B7EB9A066C184A70B3AE /* MKDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B446035A3DE40DEFBBFECB32B41DD9A /* MKDetailsController.swift */; };
+		4183DA657475575D6691B3855E1A8723 /* MKListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 344278AA400C700E015577DCE74D2A23 /* MKListTableViewCell.xib */; };
+		4CB224ACCDAAC399C1C24FB33AECBBF9 /* icon_mk_network.png in Resources */ = {isa = PBXBuildFile; fileRef = 9960A0EF8AE393EF6B31777DBFB5D50B /* icon_mk_network.png */; };
+		4DBB1458010A2A8D37589B4C7A186003 /* MKJSBridgeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CEFA16CA1DEFF50DAF11F3ED3D344 /* MKJSBridgeListViewController.swift */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		5D582812A8CC7CE9ED9D55F9166491FF /* AESCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEC7268D259BC4E8DD1049FFC9A651 /* AESCipher.swift */; };
-		620F13CB501502C0B46DEE9FDC4F4EE1 /* MKStatisticsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3CEE5D2804A283C0DB615FDD5D612 /* MKStatisticsController_iOS.swift */; };
+		5C9BE7EBB02D1CB590433E57C68A6F37 /* MKMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5523DDA9E0323FE7827D3ECB8ACC9 /* MKMenuCollectionViewCell.swift */; };
+		5CF6B84231355D4E0AEAA548918F3D07 /* MKSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A60ACEF6147677B3EAF662E9C6844 /* MKSessionConfiguration.swift */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		665FE319761B30A1EB083F72BC719E01 /* MKGenericController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CB8AF655DC9B878D9968D3AFED1D8 /* MKGenericController.swift */; };
+		66F9FE17556B85F97B7376F7631A93C7 /* MKStatisticsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C36B3A5CCF03E9875884D7A832EEE9 /* MKStatisticsController_iOS.swift */; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		69AC27AB65F4BD7019E69D77CA6A1162 /* MKStatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7FE8FF80908E4B28770E31CF8C69DF /* MKStatisticsController.swift */; };
-		6E0BF7862337CC9A618E92C34C170E92 /* MKFuncModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AECBBBC6F47426B43845E2546BF58 /* MKFuncModel.swift */; };
+		6ABF3187F2265778B744446AE4F7CE4B /* MKMenuFuncDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B93629745A7BCA64DB481132D07192 /* MKMenuFuncDelegate.swift */; };
+		6B05F57953A99D561E9CDA7EB5919DE2 /* MKAuthenticationChallengeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A1A0113C78697B20EAACB6879A8C0 /* MKAuthenticationChallengeSender.swift */; };
+		6F3E6168E7162ECAA06A27BAB5312C66 /* MKStatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B51128E3E97AC603BB3C2B384DCC1D /* MKStatisticsController.swift */; };
 		7063EDDE28FD2286A3FC48DC8EEB291B /* Pods-MangKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5D43D8BF459CB666CE14C368CBA02 /* Pods-MangKit_Tests-dummy.m */; };
-		70A4F3F3DE2965D4560A5D907CC2988F /* MKListController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042755A4E77141EBE8C5ECF6E771A2 /* MKListController_iOS.swift */; };
+		70840EBDF7DF27F07C832FFF495824AA /* MKHelper_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D145B3E53C889323AA43DBDAD06E8F /* MKHelper_iOS.swift */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		7646E0EE910F3125F62A34993A7114A8 /* MK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB597F2CF8189FD61F3AEA512BDCFB /* MK.swift */; };
-		7BB244CEA4AD0B6CE2E6ACC21443A9BE /* MKDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3C7DBA7DF7BCEEEA2A7436870A8B10 /* MKDetailsController.swift */; };
+		7440C071F2D8CDFA0F7784C4CDB4844B /* MKMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A562FF9830D11629F4D094729C62CFFC /* MKMenuViewController.xib */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		7E9E20A40BEFAE2C758A104DA044C493 /* MKListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB99E3A9FD053BA64154B360405200D /* MKListController.swift */; };
-		8373C5AA3CE8E5055399477EF92DEC12 /* MKSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111650844D6AF22B2BEF6885575FAA62 /* MKSessionConfiguration.swift */; };
+		8141597D58B11BAA00FABEDD35667F9F /* MKJSBridgeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A790D237411373702324796A4FDE0A07 /* MKJSBridgeListViewController.xib */; };
+		814D3A9405F5FFB0C7C7E10ABE75CAC7 /* AESCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E8FEF6FDA84CAF2047E37828A419D /* AESCipher.swift */; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		87A6452E401751AA38253EFB1B0BF814 /* icon_mk_debug.png in Resources */ = {isa = PBXBuildFile; fileRef = D7750751231424A8B20EB0D11E1ADDBD /* icon_mk_debug.png */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8B5390958FE22FD21DEC78CFDFC50578 /* MangKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72424B5753B835525800DF316B148F78 /* MangKit-dummy.m */; };
+		8C50924FE349F1600CC3786BCBFD7236 /* MangKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4BA1B0AF1119036DB5B0986FA0C9E4 /* MangKit-dummy.m */; };
+		9048AAA8BDD11EF4E0A979AB8E2FA319 /* MKProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FDC10FF87FA8531E18920B5483B8 /* MKProtocol.swift */; };
+		92135747D1752C5B3900AE60C10F1FF6 /* MKListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6589CAF6B9008C9350FB9E398C742 /* MKListController.swift */; };
+		961F8D285B3C482A07EA252095D3EB69 /* MKListController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20800B294514CD2C48EE32BF0FCEAC /* MKListController_iOS.swift */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		9FD86E16FF7F4A4E248867F00401CF6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		A579081F7C85396733CACDD0BE817020 /* MKH5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483727E2CD4058B369363D1A5D1187C /* MKH5ViewController.swift */; };
-		A6CA9942C58BD78C52723E966C582AF0 /* MKMenuCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F607061D3F746F51B6DE082C232DF4A /* MKMenuCollectionReusableView.swift */; };
-		A8D9E835D1F4F07A97696D8AABE9B4E7 /* MKAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63BB84296AB9529B0E27BB3785280B /* MKAssets.swift */; };
-		B2206C1AAF9196E5EB456C7943DEC75C /* MKInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99742B0F5E8BF058A6DE5B740B7B5F4 /* MKInfoController.swift */; };
-		B51F5FBB98A9D53AFDB5C745F124C586 /* MKHTTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7E992647C89F98F5FAB8B6D2F6448 /* MKHTTPModel.swift */; };
+		A636473B859A801A1A13880AD74D751D /* MKH5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49820A142253EB7F45FD002C3095F24C /* MKH5ViewController.xib */; };
+		A6F66C28E7DFE93E49773651A509B522 /* MKAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED14385D313ED9A1C889F69D890672 /* MKAssets.swift */; };
+		AABB0054DC63F32FD46B6A68CA5C23C1 /* MKGenericController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437549AA6C94C45CDFA71CB53CB74A6 /* MKGenericController.swift */; };
+		AFB482171C7AA0D2B1B96FEA72A91D3C /* MKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452D964612EDBD6BAF92AD382AF66DF /* MKConstants.swift */; };
+		B0114C31D604C6F1D73F25064FE5316F /* MangKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8022163385BD4D231F9E36BB880E766A /* MangKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12FB203AC8D9F6EA3EF65483F8908D9 /* MKFuncModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8DFD0B3EB44DFA15802E6ECC549BBE /* MKFuncModel.swift */; };
+		B2C51230C39567B1FE7E49A9406BEE39 /* MKHTTPModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BEFAA94DFAA23A119E318B81D02E04 /* MKHTTPModelManager.swift */; };
+		B4AF3E0B7F10891B962C6F8239DDF1C8 /* NFXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9176138DD643ABB49CA16A83B3586332 /* NFXConstants.swift */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		B5AD639949C06F30ADA6FB879678BDD5 /* icon_mk_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5112192DDF29292F40DA99EADB5B5500 /* icon_mk_scan.png */; };
+		B5D7EF0242AB5A7C22D3F8B51607AF81 /* MKInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A381E9708389E43A08E346E706B7C /* MKInfoController.swift */; };
 		B6FEB0151C1CFB855F9B1FDDADFB110F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		BC6B3BE8B49E8B0FF456FF66E2D1790D /* NFXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF2DA1972AF03894D45E685C5285AD /* NFXConstants.swift */; };
-		BD8CC999DE8D2E2C26C8F14E0F850CBE /* MKListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C656D74CDC37F14F4F7CEAB3E91108 /* MKListTableViewCell.swift */; };
+		B74F15E45488824D266EF818EFB110B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		B7B7B53D2752C3BBA415A6EC36CEE0A6 /* MKMenuCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFE438C6A7F442D66C5F168DE93D3B1 /* MKMenuCollectionReusableView.xib */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C57AFBA291E78786C236D766272FD20D /* MKHelper_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1933BE6BA10D23ED4664D77839F745 /* MKHelper_iOS.swift */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA429B4B68C1BC7F1922115306CE1DB1 /* MKHTTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C893419023F1EED9E31C1F5FE0D03C /* MKHTTPModel.swift */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		CF3632F7848B2EF16CC69B0269B9F714 /* MKJSModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2556DA848D44E0515663788CE65CD6C7 /* MKJSModelManager.swift */; };
-		D4584C40E4CBD3647A1F8FCCDA0EACEF /* MKSettingsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EA0A2020374BB9A997BF680029D43 /* MKSettingsController_iOS.swift */; };
+		CD92D6CF62DC09B06FCEE3DA25FE4C32 /* MKMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B34B9823C351D57EBA89322A4E5978 /* MKMenuCollectionViewCell.xib */; };
+		CDB64360B2204626C77F78135A767703 /* MKSettingsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444E5AFE551308143E046D57BCB09CC /* MKSettingsController_iOS.swift */; };
+		D09CE6F3EF21E587ADECE70E4EF200C5 /* MKInfoController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CBB086D535BE672CFA3CC588DE19A6 /* MKInfoController_iOS.swift */; };
+		D5F9207F8B617B7B1ABA7D78709508FC /* MKListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8C94480A3C59F5F0188992AB2ACA1 /* MKListTableViewCell.swift */; };
+		D7C18E48E764AC956872A13130564C16 /* MKGenericBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5C07F6CF4392422DE73015CCE9108 /* MKGenericBodyDetailsController.swift */; };
 		DDA06038E5D6BB78716857EE348B06C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		DFADE2803B6B8A1D8BE244D0ED2FEB45 /* MKHTTPModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AE1DDA23E45D2CD51F1BC9C6ACFB1E /* MKHTTPModelManager.swift */; };
-		E4E76B1976C40C98425AE1DD27034E27 /* MKRawBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B0ECFD1AF0D13AB9969D3178D1D0A /* MKRawBodyDetailsController.swift */; };
-		E788C07B9D7BE7C103360C9B16393CE7 /* MKFloatingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4483D9B834D4694B9B9EBAF2DF972 /* MKFloatingBtn.swift */; };
+		E70D3225CFE44A1ED824049BBFDF0F27 /* icon_mk_log.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D9868CFA0266148DD0036808AEE735 /* icon_mk_log.png */; };
+		F27EE22574DE5894F300842F13FC27C1 /* MKSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F045F6857D06D56D6DCBA2E4A7E9E /* MKSettingsController.swift */; };
 		F29796BB80D3F484625DD91EBCA45592 /* Pods-MangKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 061627262C3179C5034771E66CA99A53 /* Pods-MangKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0941465A589DC3A5F5E78F83ED4C39 /* MKMenuCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9CFBAA59C36EAD5B05FCF33AC29A88 /* MKMenuCollectionReusableView.swift */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A2162378F2C422CD1B0846D7975F736B /* PBXContainerItemProxy */ = {
+		9F4EFA007C0FF7E26928BC32283E50EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3E4869DF50150CAB5E94ED96C6BC6EA4;
 			remoteInfo = "Pods-MangKit_Example";
 		};
-		A445879EE487A3AD104EF9A95DA5F33A /* PBXContainerItemProxy */ = {
+		C07554F7535DFE1DBDCF185FD61BE90F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		F57E35BA78628D51451F5115B0D0E8D1 /* PBXContainerItemProxy */ = {
+		D468B4C1C824D2DABC770556B6B89411 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -102,100 +114,112 @@
 
 /* Begin PBXFileReference section */
 		03968DC8AC663746CC0E3972DC7E9368 /* Pods-MangKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MangKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		05C656D74CDC37F14F4F7CEAB3E91108 /* MKListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKListTableViewCell.swift; sourceTree = "<group>"; };
+		04EFF865A91F2A217B8197560D2016E3 /* MKURLDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKURLDetailsController.swift; sourceTree = "<group>"; };
 		061627262C3179C5034771E66CA99A53 /* Pods-MangKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MangKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		07042755A4E77141EBE8C5ECF6E771A2 /* MKListController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKListController_iOS.swift; sourceTree = "<group>"; };
+		0BB4FDC10FF87FA8531E18920B5483B8 /* MKProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProtocol.swift; path = MangKit/Classes/MangKit/MKProtocol.swift; sourceTree = "<group>"; };
 		0D6C7148FDADE658D63C023F5546336B /* Pods-MangKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MangKit_Example-dummy.m"; sourceTree = "<group>"; };
-		0D7CE6B5517ACBE07CCAE4A5BDAD326F /* MKHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHelper.swift; path = MangKit/Classes/MangKit/MKHelper.swift; sourceTree = "<group>"; };
 		0DA5D43D8BF459CB666CE14C368CBA02 /* Pods-MangKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MangKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		0FF5B84AE0C5AFDED2AD32DD1FB68491 /* MKProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKProtocol.swift; path = MangKit/Classes/MangKit/MKProtocol.swift; sourceTree = "<group>"; };
 		10DC4DF3663BC774F356FBF481138E84 /* Pods-MangKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MangKit_Tests"; path = Pods_MangKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		111650844D6AF22B2BEF6885575FAA62 /* MKSessionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSessionConfiguration.swift; path = MangKit/Classes/MangKit/MKSessionConfiguration.swift; sourceTree = "<group>"; };
-		15AE1DDA23E45D2CD51F1BC9C6ACFB1E /* MKHTTPModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHTTPModelManager.swift; path = MangKit/Classes/MangKit/MKHTTPModelManager.swift; sourceTree = "<group>"; };
+		168A381E9708389E43A08E346E706B7C /* MKInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKInfoController.swift; path = MangKit/Classes/MangKit/MKInfoController.swift; sourceTree = "<group>"; };
+		19CBBE879C62F5682AC0BDF8A15E32B4 /* MKMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuViewController.swift; sourceTree = "<group>"; };
+		1A9A60ACEF6147677B3EAF662E9C6844 /* MKSessionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSessionConfiguration.swift; path = MangKit/Classes/MangKit/MKSessionConfiguration.swift; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1AF2C74576726223964CD575A4BA94B6 /* icon_mk_H5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_H5.png; path = MangKit/Assets/icon_mk_H5.png; sourceTree = "<group>"; };
+		1BD805562555822B022766BD04AAD8B5 /* MangKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MangKit-Info.plist"; sourceTree = "<group>"; };
+		1C2A1A0113C78697B20EAACB6879A8C0 /* MKAuthenticationChallengeSender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKAuthenticationChallengeSender.swift; path = MangKit/Classes/MangKit/MKAuthenticationChallengeSender.swift; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		218B0ECFD1AF0D13AB9969D3178D1D0A /* MKRawBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKRawBodyDetailsController.swift; sourceTree = "<group>"; };
+		1FFE438C6A7F442D66C5F168DE93D3B1 /* MKMenuCollectionReusableView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKMenuCollectionReusableView.xib; path = MangKit/Assets/MKMenuCollectionReusableView.xib; sourceTree = "<group>"; };
+		21C1E24859DE883011349376E01663AE /* MangKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangKit.release.xcconfig; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		2556DA848D44E0515663788CE65CD6C7 /* MKJSModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKJSModelManager.swift; path = MangKit/Classes/MangKit/MKJSModelManager.swift; sourceTree = "<group>"; };
+		2437549AA6C94C45CDFA71CB53CB74A6 /* MKGenericController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKGenericController.swift; path = MangKit/Classes/MangKit/MKGenericController.swift; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		289CB8AF655DC9B878D9968D3AFED1D8 /* MKGenericController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKGenericController.swift; path = MangKit/Classes/MangKit/MKGenericController.swift; sourceTree = "<group>"; };
-		28E3CEE5D2804A283C0DB615FDD5D612 /* MKStatisticsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKStatisticsController_iOS.swift; sourceTree = "<group>"; };
-		2BB4483D9B834D4694B9B9EBAF2DF972 /* MKFloatingBtn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKFloatingBtn.swift; path = MangKit/Classes/MangKit/MKFloatingBtn.swift; sourceTree = "<group>"; };
-		2EB02C8BD6B0703E735F90F7F3919F12 /* MKMenuFuncDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKMenuFuncDelegate.swift; path = MangKit/Classes/MangKit/MKMenuFuncDelegate.swift; sourceTree = "<group>"; };
-		2FB99E3A9FD053BA64154B360405200D /* MKListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKListController.swift; path = MangKit/Classes/MangKit/MKListController.swift; sourceTree = "<group>"; };
 		31628FA55FD475D4897A2202D4D4F66D /* Pods-MangKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MangKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		344278AA400C700E015577DCE74D2A23 /* MKListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKListTableViewCell.xib; path = MangKit/Assets/MKListTableViewCell.xib; sourceTree = "<group>"; };
+		37D5C07F6CF4392422DE73015CCE9108 /* MKGenericBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKGenericBodyDetailsController.swift; path = MangKit/Classes/MangKit/MKGenericBodyDetailsController.swift; sourceTree = "<group>"; };
+		3A9CFBAA59C36EAD5B05FCF33AC29A88 /* MKMenuCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuCollectionReusableView.swift; sourceTree = "<group>"; };
+		3AED14385D313ED9A1C889F69D890672 /* MKAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKAssets.swift; path = MangKit/Classes/MangKit/MKAssets.swift; sourceTree = "<group>"; };
+		3C217D59C4C76731A079EE123562F8F0 /* MKImageBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageBodyDetailsController.swift; path = MangKit/Classes/MangKit/MKImageBodyDetailsController.swift; sourceTree = "<group>"; };
+		3DB5523DDA9E0323FE7827D3ECB8ACC9 /* MKMenuCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		41E9F4BEDA0820C573678C055ECB4275 /* MKDetailsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKDetailsController_iOS.swift; sourceTree = "<group>"; };
 		43D517BAA554A9CCEAC1BA6CD9EECDCF /* Pods-MangKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MangKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		44B358A67C6C00321DD69A1E77C9624C /* MKJSBridgeListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKJSBridgeListViewController.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		460C18EDA119DE5F04A741B7931DC98F /* MKImageBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageBodyDetailsController.swift; path = MangKit/Classes/MangKit/MKImageBodyDetailsController.swift; sourceTree = "<group>"; };
-		4899123CE29BE661C97B29DC72736A76 /* MangKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MangKit-Info.plist"; sourceTree = "<group>"; };
+		49820A142253EB7F45FD002C3095F24C /* MKH5ViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKH5ViewController.xib; path = MangKit/Assets/MKH5ViewController.xib; sourceTree = "<group>"; };
+		4B446035A3DE40DEFBBFECB32B41DD9A /* MKDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKDetailsController.swift; path = MangKit/Classes/MangKit/MKDetailsController.swift; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		5483727E2CD4058B369363D1A5D1187C /* MKH5ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKH5ViewController.swift; sourceTree = "<group>"; };
-		54FF2DA1972AF03894D45E685C5285AD /* NFXConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXConstants.swift; path = MangKit/Classes/MangKit/NFXConstants.swift; sourceTree = "<group>"; };
+		5112192DDF29292F40DA99EADB5B5500 /* icon_mk_scan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_scan.png; path = MangKit/Assets/icon_mk_scan.png; sourceTree = "<group>"; };
+		56B34B9823C351D57EBA89322A4E5978 /* MKMenuCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKMenuCollectionViewCell.xib; path = MangKit/Assets/MKMenuCollectionViewCell.xib; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		59514C780978D13C8D83355BBBD08063 /* Pods-MangKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MangKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F010ED42E19DF0A5904C03FBC22CFD1 /* MKDetailsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKDetailsController_iOS.swift; sourceTree = "<group>"; };
-		61C4B215F0C20C7318804E063EA3F2F8 /* MKURLDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKURLDetailsController.swift; sourceTree = "<group>"; };
+		62C36B3A5CCF03E9875884D7A832EEE9 /* MKStatisticsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKStatisticsController_iOS.swift; sourceTree = "<group>"; };
+		6308594447FFA37B45C8B2E20E2AFE16 /* MangKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MangKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		67CBB086D535BE672CFA3CC588DE19A6 /* MKInfoController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKInfoController_iOS.swift; sourceTree = "<group>"; };
 		68B73BB6D5A3E3FAB8D760D3F4683A7B /* Pods-MangKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MangKit_Example-Info.plist"; sourceTree = "<group>"; };
-		6952ABA96A6740085B3E0E43ED650FB8 /* MKGenericBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKGenericBodyDetailsController.swift; path = MangKit/Classes/MangKit/MKGenericBodyDetailsController.swift; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6C7154FBAB111AD6D2BEEC500DDE20D4 /* MKConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKConstants.swift; path = MangKit/Classes/MangKit/MKConstants.swift; sourceTree = "<group>"; };
-		6C7FE8FF80908E4B28770E31CF8C69DF /* MKStatisticsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKStatisticsController.swift; path = MangKit/Classes/MangKit/MKStatisticsController.swift; sourceTree = "<group>"; };
-		72424B5753B835525800DF316B148F78 /* MangKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MangKit-dummy.m"; sourceTree = "<group>"; };
-		74464C07440DBE0721B59FC2CFA242BA /* MKInfoController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKInfoController_iOS.swift; sourceTree = "<group>"; };
+		72BEFAA94DFAA23A119E318B81D02E04 /* MKHTTPModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHTTPModelManager.swift; path = MangKit/Classes/MangKit/MKHTTPModelManager.swift; sourceTree = "<group>"; };
 		763107FBDFC1507DED96E6032AE078A5 /* Pods-MangKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MangKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		8022163385BD4D231F9E36BB880E766A /* MangKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MangKit-umbrella.h"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8B3E8FEF6FDA84CAF2047E37828A419D /* AESCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AESCipher.swift; path = MangKit/Classes/MangKit/AESCipher.swift; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		8EAACB397261D23680BC68B0C8D13B96 /* MKAuthenticationChallengeSender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKAuthenticationChallengeSender.swift; path = MangKit/Classes/MangKit/MKAuthenticationChallengeSender.swift; sourceTree = "<group>"; };
+		8F8299525DDD8398182BF8C1FF6A6DAB /* MKFloatingBtn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKFloatingBtn.swift; path = MangKit/Classes/MangKit/MKFloatingBtn.swift; sourceTree = "<group>"; };
+		9176138DD643ABB49CA16A83B3586332 /* NFXConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXConstants.swift; path = MangKit/Classes/MangKit/NFXConstants.swift; sourceTree = "<group>"; };
+		93C6589CAF6B9008C9350FB9E398C742 /* MKListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKListController.swift; path = MangKit/Classes/MangKit/MKListController.swift; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		9509CD04F1A54B2BD05F7684374DC10A /* Pods-MangKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MangKit_Tests.modulemap"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		98B51128E3E97AC603BB3C2B384DCC1D /* MKStatisticsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKStatisticsController.swift; path = MangKit/Classes/MangKit/MKStatisticsController.swift; sourceTree = "<group>"; };
+		9960A0EF8AE393EF6B31777DBFB5D50B /* icon_mk_network.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_network.png; path = MangKit/Assets/icon_mk_network.png; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9C3C7DBA7DF7BCEEEA2A7436870A8B10 /* MKDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKDetailsController.swift; path = MangKit/Classes/MangKit/MKDetailsController.swift; sourceTree = "<group>"; };
+		9A301F7DD87DFE3B89C7B2CC2EA34E9C /* MangKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MangKit.modulemap; sourceTree = "<group>"; };
+		9B98798311909DA115378772A8E71BE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F607061D3F746F51B6DE082C232DF4A /* MKMenuCollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuCollectionReusableView.swift; sourceTree = "<group>"; };
-		A09EA0A2020374BB9A997BF680029D43 /* MKSettingsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKSettingsController_iOS.swift; sourceTree = "<group>"; };
 		A140DF039404A171185B1C6920C02782 /* Pods-MangKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MangKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A294D90245FDCE63B9BF66063AAFEC46 /* Pods-MangKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A30AECBBBC6F47426B43845E2546BF58 /* MKFuncModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKFuncModel.swift; path = MangKit/Classes/MangKit/MKFuncModel.swift; sourceTree = "<group>"; };
-		A99742B0F5E8BF058A6DE5B740B7B5F4 /* MKInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKInfoController.swift; path = MangKit/Classes/MangKit/MKInfoController.swift; sourceTree = "<group>"; };
-		AA78E3417BFDA3486DC19C4CFE211281 /* MKSettingsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSettingsController.swift; path = MangKit/Classes/MangKit/MKSettingsController.swift; sourceTree = "<group>"; };
+		A2C8C94480A3C59F5F0188992AB2ACA1 /* MKListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKListTableViewCell.swift; sourceTree = "<group>"; };
+		A452D964612EDBD6BAF92AD382AF66DF /* MKConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKConstants.swift; path = MangKit/Classes/MangKit/MKConstants.swift; sourceTree = "<group>"; };
+		A562FF9830D11629F4D094729C62CFFC /* MKMenuViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKMenuViewController.xib; path = MangKit/Assets/MKMenuViewController.xib; sourceTree = "<group>"; };
+		A790D237411373702324796A4FDE0A07 /* MKJSBridgeListViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MKJSBridgeListViewController.xib; path = MangKit/Assets/MKJSBridgeListViewController.xib; sourceTree = "<group>"; };
+		A8E8707F1424F70E593BAC3506957B55 /* MK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MK.swift; path = MangKit/Classes/MangKit/MK.swift; sourceTree = "<group>"; };
+		AB15835C04B59673F599072A36D592BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B2EEC7268D259BC4E8DD1049FFC9A651 /* AESCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AESCipher.swift; path = MangKit/Classes/MangKit/AESCipher.swift; sourceTree = "<group>"; };
 		B678371B857D1F20456E085DD2AF081F /* Pods-MangKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MangKit_Example"; path = Pods_MangKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D145B3E53C889323AA43DBDAD06E8F /* MKHelper_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKHelper_iOS.swift; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B7AB597F2CF8189FD61F3AEA512BDCFB /* MK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MK.swift; path = MangKit/Classes/MangKit/MK.swift; sourceTree = "<group>"; };
-		B8A92787CFBFCB348A5E96A0E4BDF134 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB4BA1B0AF1119036DB5B0986FA0C9E4 /* MangKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MangKit-dummy.m"; sourceTree = "<group>"; };
 		BC978CEC69F8ECCDBBE1E9DAD133EB67 /* Pods-MangKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MangKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		BF1933BE6BA10D23ED4664D77839F745 /* MKHelper_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKHelper_iOS.swift; sourceTree = "<group>"; };
+		BD0CEFA16CA1DEFF50DAF11F3ED3D344 /* MKJSBridgeListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKJSBridgeListViewController.swift; sourceTree = "<group>"; };
 		C18A80A81DF9FF32CA557AA5D68DA61E /* MangKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MangKit; path = MangKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D7E992647C89F98F5FAB8B6D2F6448 /* MKHTTPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHTTPModel.swift; path = MangKit/Classes/MangKit/MKHTTPModel.swift; sourceTree = "<group>"; };
-		C20D6159E5DE285CB9A8DCDBF88D0F1D /* MangKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MangKit.modulemap; sourceTree = "<group>"; };
 		C21FB3F80C68F0F80EA19A587C6FD8CE /* Pods-MangKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C325D9BBCE6332875C366A656E2163E9 /* MangKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MangKit-prefix.pch"; sourceTree = "<group>"; };
+		C2D9868CFA0266148DD0036808AEE735 /* icon_mk_log.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_log.png; path = MangKit/Assets/icon_mk_log.png; sourceTree = "<group>"; };
+		C7FA35DDC3B16C9EA321A4E82244A643 /* MangKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MangKit-prefix.pch"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CE406E7549FDB3895510AE8862526809 /* Pods-MangKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MangKit_Example.modulemap"; sourceTree = "<group>"; };
-		D056E049C5D689711DE2E3C4833F288C /* MKMenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuViewController.swift; sourceTree = "<group>"; };
+		CE7F045F6857D06D56D6DCBA2E4A7E9E /* MKSettingsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSettingsController.swift; path = MangKit/Classes/MangKit/MKSettingsController.swift; sourceTree = "<group>"; };
+		CF8DFD0B3EB44DFA15802E6ECC549BBE /* MKFuncModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKFuncModel.swift; path = MangKit/Classes/MangKit/MKFuncModel.swift; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D395DCFEB95C0D26DCF270F02D7E5CA6 /* Pods-MangKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D505AD4D30EF2FBFCCB4FEB839ED6419 /* MangKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MangKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D444E5AFE551308143E046D57BCB09CC /* MKSettingsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKSettingsController_iOS.swift; sourceTree = "<group>"; };
+		D5B93629745A7BCA64DB481132D07192 /* MKMenuFuncDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKMenuFuncDelegate.swift; path = MangKit/Classes/MangKit/MKMenuFuncDelegate.swift; sourceTree = "<group>"; };
+		D7750751231424A8B20EB0D11E1ADDBD /* icon_mk_debug.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_debug.png; path = MangKit/Assets/icon_mk_debug.png; sourceTree = "<group>"; };
+		D777790E0E510B922976930CB1B7F211 /* MKH5ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKH5ViewController.swift; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DA63BB84296AB9529B0E27BB3785280B /* MKAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKAssets.swift; path = MangKit/Classes/MangKit/MKAssets.swift; sourceTree = "<group>"; };
-		E0ED4484CE7ADF12F489ACB191395CCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E1501745B96497E4E8BEADCB728CF2F8 /* MangKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MangKit-umbrella.h"; sourceTree = "<group>"; };
-		E3EEEEA983FC44FC6BBC750823C20411 /* MKMenuCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8C893419023F1EED9E31C1F5FE0D03C /* MKHTTPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHTTPModel.swift; path = MangKit/Classes/MangKit/MKHTTPModel.swift; sourceTree = "<group>"; };
+		DD56A6CFFC0CABC782B5AF4A9DCD2768 /* MKRawBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKRawBodyDetailsController.swift; sourceTree = "<group>"; };
+		DEE7B3E36221BD4F85BDD7ADAFAB5ABD /* icon_mk_clear.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_mk_clear.png; path = MangKit/Assets/icon_mk_clear.png; sourceTree = "<group>"; };
+		E04D828BFED4F4737588F1A933F7C864 /* MKHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKHelper.swift; path = MangKit/Classes/MangKit/MKHelper.swift; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E9C247FC2769DDCEF34BE60B16CE4277 /* Pods-MangKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MangKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F185BCD80F28DD6ACCC4222936AB286B /* MangKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangKit.debug.xcconfig; sourceTree = "<group>"; };
+		F0425F84BD3E066621370E5093752931 /* MangKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangKit.debug.xcconfig; sourceTree = "<group>"; };
 		F3FA88677709EC1F72508F280452D626 /* Pods-MangKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MangKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7050EF81F23C91FDC9AA1F55F8BB82D /* MangKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MangKit.release.xcconfig; sourceTree = "<group>"; };
+		FA20800B294514CD2C48EE32BF0FCEAC /* MKListController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MKListController_iOS.swift; sourceTree = "<group>"; };
+		FE7263225D53C894402367AA1494FC6A /* MKJSModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKJSModelManager.swift; path = MangKit/Classes/MangKit/MKJSModelManager.swift; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,19 +232,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B3BD853C96C387643B3D4E804BF5F48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FD86E16FF7F4A4E248867F00401CF6C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCC0104090597454788DA1AB0A6BA1CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DDA06038E5D6BB78716857EE348B06C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA933534121E5C3FA0572E81C404801D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74F15E45488824D266EF818EFB110B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,12 +262,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B466376180EB0A8507BB6C025CFB4B5 /* Development Pods */ = {
+		2F0D6F7B9F7CF5ADED62FEB0F4D95523 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C68FAF648E789CCD838A799A5FCB0D8F /* MangKit */,
+				7C28094DB608F5DDEE6F17EFE12C01E0 /* MangKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		38663BD20D145E36F14ACB74E00A09FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB15835C04B59673F599072A36D592BB /* LICENSE */,
+				6308594447FFA37B45C8B2E20E2AFE16 /* MangKit.podspec */,
+				9B98798311909DA115378772A8E71BE4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4770A42F5CEC3FC8746BE775381813EA /* Products */ = {
@@ -312,27 +346,58 @@
 			path = "Target Support Files/Pods-MangKit_Example";
 			sourceTree = "<group>";
 		};
+		7C28094DB608F5DDEE6F17EFE12C01E0 /* MangKit */ = {
+			isa = PBXGroup;
+			children = (
+				8B3E8FEF6FDA84CAF2047E37828A419D /* AESCipher.swift */,
+				DEE7B3E36221BD4F85BDD7ADAFAB5ABD /* icon_mk_clear.png */,
+				D7750751231424A8B20EB0D11E1ADDBD /* icon_mk_debug.png */,
+				1AF2C74576726223964CD575A4BA94B6 /* icon_mk_H5.png */,
+				C2D9868CFA0266148DD0036808AEE735 /* icon_mk_log.png */,
+				9960A0EF8AE393EF6B31777DBFB5D50B /* icon_mk_network.png */,
+				5112192DDF29292F40DA99EADB5B5500 /* icon_mk_scan.png */,
+				A8E8707F1424F70E593BAC3506957B55 /* MK.swift */,
+				3AED14385D313ED9A1C889F69D890672 /* MKAssets.swift */,
+				1C2A1A0113C78697B20EAACB6879A8C0 /* MKAuthenticationChallengeSender.swift */,
+				A452D964612EDBD6BAF92AD382AF66DF /* MKConstants.swift */,
+				4B446035A3DE40DEFBBFECB32B41DD9A /* MKDetailsController.swift */,
+				8F8299525DDD8398182BF8C1FF6A6DAB /* MKFloatingBtn.swift */,
+				CF8DFD0B3EB44DFA15802E6ECC549BBE /* MKFuncModel.swift */,
+				37D5C07F6CF4392422DE73015CCE9108 /* MKGenericBodyDetailsController.swift */,
+				2437549AA6C94C45CDFA71CB53CB74A6 /* MKGenericController.swift */,
+				49820A142253EB7F45FD002C3095F24C /* MKH5ViewController.xib */,
+				E04D828BFED4F4737588F1A933F7C864 /* MKHelper.swift */,
+				D8C893419023F1EED9E31C1F5FE0D03C /* MKHTTPModel.swift */,
+				72BEFAA94DFAA23A119E318B81D02E04 /* MKHTTPModelManager.swift */,
+				3C217D59C4C76731A079EE123562F8F0 /* MKImageBodyDetailsController.swift */,
+				168A381E9708389E43A08E346E706B7C /* MKInfoController.swift */,
+				A790D237411373702324796A4FDE0A07 /* MKJSBridgeListViewController.xib */,
+				FE7263225D53C894402367AA1494FC6A /* MKJSModelManager.swift */,
+				93C6589CAF6B9008C9350FB9E398C742 /* MKListController.swift */,
+				344278AA400C700E015577DCE74D2A23 /* MKListTableViewCell.xib */,
+				1FFE438C6A7F442D66C5F168DE93D3B1 /* MKMenuCollectionReusableView.xib */,
+				56B34B9823C351D57EBA89322A4E5978 /* MKMenuCollectionViewCell.xib */,
+				D5B93629745A7BCA64DB481132D07192 /* MKMenuFuncDelegate.swift */,
+				A562FF9830D11629F4D094729C62CFFC /* MKMenuViewController.xib */,
+				0BB4FDC10FF87FA8531E18920B5483B8 /* MKProtocol.swift */,
+				1A9A60ACEF6147677B3EAF662E9C6844 /* MKSessionConfiguration.swift */,
+				CE7F045F6857D06D56D6DCBA2E4A7E9E /* MKSettingsController.swift */,
+				98B51128E3E97AC603BB3C2B384DCC1D /* MKStatisticsController.swift */,
+				9176138DD643ABB49CA16A83B3586332 /* NFXConstants.swift */,
+				38663BD20D145E36F14ACB74E00A09FA /* Pod */,
+				D76CFAE2C08A4F1FC1EDA11FEE24A53F /* Support Files */,
+				C80D04F0F791B2EAB72EF51572DC9DE0 /* View */,
+			);
+			name = MangKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		A05CE8A351D669954A677CED648E9287 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C20D6159E5DE285CB9A8DCDBF88D0F1D /* MangKit.modulemap */,
-				72424B5753B835525800DF316B148F78 /* MangKit-dummy.m */,
-				4899123CE29BE661C97B29DC72736A76 /* MangKit-Info.plist */,
-				C325D9BBCE6332875C366A656E2163E9 /* MangKit-prefix.pch */,
-				E1501745B96497E4E8BEADCB728CF2F8 /* MangKit-umbrella.h */,
-				F185BCD80F28DD6ACCC4222936AB286B /* MangKit.debug.xcconfig */,
-				F7050EF81F23C91FDC9AA1F55F8BB82D /* MangKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MangKit";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -358,28 +423,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC22F5BEA986E4C225632AB29E602C75 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5F010ED42E19DF0A5904C03FBC22CFD1 /* MKDetailsController_iOS.swift */,
-				5483727E2CD4058B369363D1A5D1187C /* MKH5ViewController.swift */,
-				BF1933BE6BA10D23ED4664D77839F745 /* MKHelper_iOS.swift */,
-				74464C07440DBE0721B59FC2CFA242BA /* MKInfoController_iOS.swift */,
-				44B358A67C6C00321DD69A1E77C9624C /* MKJSBridgeListViewController.swift */,
-				07042755A4E77141EBE8C5ECF6E771A2 /* MKListController_iOS.swift */,
-				05C656D74CDC37F14F4F7CEAB3E91108 /* MKListTableViewCell.swift */,
-				9F607061D3F746F51B6DE082C232DF4A /* MKMenuCollectionReusableView.swift */,
-				E3EEEEA983FC44FC6BBC750823C20411 /* MKMenuCollectionViewCell.swift */,
-				D056E049C5D689711DE2E3C4833F288C /* MKMenuViewController.swift */,
-				218B0ECFD1AF0D13AB9969D3178D1D0A /* MKRawBodyDetailsController.swift */,
-				A09EA0A2020374BB9A997BF680029D43 /* MKSettingsController_iOS.swift */,
-				28E3CEE5D2804A283C0DB615FDD5D612 /* MKStatisticsController_iOS.swift */,
-				61C4B215F0C20C7318804E063EA3F2F8 /* MKURLDetailsController.swift */,
-			);
-			name = View;
-			path = MangKit/Classes/MangKit/View;
-			sourceTree = "<group>";
-		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,50 +434,53 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C68FAF648E789CCD838A799A5FCB0D8F /* MangKit */ = {
+		C80D04F0F791B2EAB72EF51572DC9DE0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B2EEC7268D259BC4E8DD1049FFC9A651 /* AESCipher.swift */,
-				B7AB597F2CF8189FD61F3AEA512BDCFB /* MK.swift */,
-				DA63BB84296AB9529B0E27BB3785280B /* MKAssets.swift */,
-				8EAACB397261D23680BC68B0C8D13B96 /* MKAuthenticationChallengeSender.swift */,
-				6C7154FBAB111AD6D2BEEC500DDE20D4 /* MKConstants.swift */,
-				9C3C7DBA7DF7BCEEEA2A7436870A8B10 /* MKDetailsController.swift */,
-				2BB4483D9B834D4694B9B9EBAF2DF972 /* MKFloatingBtn.swift */,
-				A30AECBBBC6F47426B43845E2546BF58 /* MKFuncModel.swift */,
-				6952ABA96A6740085B3E0E43ED650FB8 /* MKGenericBodyDetailsController.swift */,
-				289CB8AF655DC9B878D9968D3AFED1D8 /* MKGenericController.swift */,
-				0D7CE6B5517ACBE07CCAE4A5BDAD326F /* MKHelper.swift */,
-				C1D7E992647C89F98F5FAB8B6D2F6448 /* MKHTTPModel.swift */,
-				15AE1DDA23E45D2CD51F1BC9C6ACFB1E /* MKHTTPModelManager.swift */,
-				460C18EDA119DE5F04A741B7931DC98F /* MKImageBodyDetailsController.swift */,
-				A99742B0F5E8BF058A6DE5B740B7B5F4 /* MKInfoController.swift */,
-				2556DA848D44E0515663788CE65CD6C7 /* MKJSModelManager.swift */,
-				2FB99E3A9FD053BA64154B360405200D /* MKListController.swift */,
-				2EB02C8BD6B0703E735F90F7F3919F12 /* MKMenuFuncDelegate.swift */,
-				0FF5B84AE0C5AFDED2AD32DD1FB68491 /* MKProtocol.swift */,
-				111650844D6AF22B2BEF6885575FAA62 /* MKSessionConfiguration.swift */,
-				AA78E3417BFDA3486DC19C4CFE211281 /* MKSettingsController.swift */,
-				6C7FE8FF80908E4B28770E31CF8C69DF /* MKStatisticsController.swift */,
-				54FF2DA1972AF03894D45E685C5285AD /* NFXConstants.swift */,
-				FAE1C87B3D9C9F7606E5A76D5E6C5104 /* Pod */,
-				A05CE8A351D669954A677CED648E9287 /* Support Files */,
-				BC22F5BEA986E4C225632AB29E602C75 /* View */,
+				41E9F4BEDA0820C573678C055ECB4275 /* MKDetailsController_iOS.swift */,
+				D777790E0E510B922976930CB1B7F211 /* MKH5ViewController.swift */,
+				B6D145B3E53C889323AA43DBDAD06E8F /* MKHelper_iOS.swift */,
+				67CBB086D535BE672CFA3CC588DE19A6 /* MKInfoController_iOS.swift */,
+				BD0CEFA16CA1DEFF50DAF11F3ED3D344 /* MKJSBridgeListViewController.swift */,
+				FA20800B294514CD2C48EE32BF0FCEAC /* MKListController_iOS.swift */,
+				A2C8C94480A3C59F5F0188992AB2ACA1 /* MKListTableViewCell.swift */,
+				3A9CFBAA59C36EAD5B05FCF33AC29A88 /* MKMenuCollectionReusableView.swift */,
+				3DB5523DDA9E0323FE7827D3ECB8ACC9 /* MKMenuCollectionViewCell.swift */,
+				19CBBE879C62F5682AC0BDF8A15E32B4 /* MKMenuViewController.swift */,
+				DD56A6CFFC0CABC782B5AF4A9DCD2768 /* MKRawBodyDetailsController.swift */,
+				D444E5AFE551308143E046D57BCB09CC /* MKSettingsController_iOS.swift */,
+				62C36B3A5CCF03E9875884D7A832EEE9 /* MKStatisticsController_iOS.swift */,
+				04EFF865A91F2A217B8197560D2016E3 /* MKURLDetailsController.swift */,
 			);
-			name = MangKit;
-			path = ../..;
+			name = View;
+			path = MangKit/Classes/MangKit/View;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2B466376180EB0A8507BB6C025CFB4B5 /* Development Pods */,
+				2F0D6F7B9F7CF5ADED62FEB0F4D95523 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				4770A42F5CEC3FC8746BE775381813EA /* Products */,
 				E8201168EBABF153E5C717172C5058AF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D76CFAE2C08A4F1FC1EDA11FEE24A53F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A301F7DD87DFE3B89C7B2CC2EA34E9C /* MangKit.modulemap */,
+				BB4BA1B0AF1119036DB5B0986FA0C9E4 /* MangKit-dummy.m */,
+				1BD805562555822B022766BD04AAD8B5 /* MangKit-Info.plist */,
+				C7FA35DDC3B16C9EA321A4E82244A643 /* MangKit-prefix.pch */,
+				8022163385BD4D231F9E36BB880E766A /* MangKit-umbrella.h */,
+				F0425F84BD3E066621370E5093752931 /* MangKit.debug.xcconfig */,
+				21C1E24859DE883011349376E01663AE /* MangKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MangKit";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -452,16 +498,6 @@
 				663597F6262A756EEAA1F8C87373D6D8 /* Pods-MangKit_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FAE1C87B3D9C9F7606E5A76D5E6C5104 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B8A92787CFBFCB348A5E96A0E4BDF134 /* LICENSE */,
-				D505AD4D30EF2FBFCCB4FEB839ED6419 /* MangKit.podspec */,
-				E0ED4484CE7ADF12F489ACB191395CCF /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
@@ -494,11 +530,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD87EF2296EAC2C33147771F8D466511 /* Headers */ = {
+		1DEC6BA3C0871AF0385175B3606232F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36511953811690813A7CBE39A5D9A8EA /* MangKit-umbrella.h in Headers */,
+				B0114C31D604C6F1D73F25064FE5316F /* MangKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +568,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB6F40F79CE68012ADE55A66069E5A5D /* PBXTargetDependency */,
+				BFFC0EEAB1829280C690CDDCD470EA0C /* PBXTargetDependency */,
 			);
 			name = "Pods-MangKit_Example";
 			productName = Pods_MangKit_Example;
@@ -551,8 +587,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				29052A25E21AC43C9848DC280048845A /* PBXTargetDependency */,
-				4BD06EF64E0944A8F12F6A20C6D5ECC1 /* PBXTargetDependency */,
+				E8D2CD4E306542D6126CD5D694146A05 /* PBXTargetDependency */,
+				5B3A6CEE5A4B6E7D24C28194EE1E4D9B /* PBXTargetDependency */,
 			);
 			name = "Pods-MangKit_Tests";
 			productName = Pods_MangKit_Tests;
@@ -579,12 +615,12 @@
 		};
 		D0148BC61E0ADC0066CE0A7DC324B76A /* MangKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC7D9DFF612CB2F9E3A1B19649999252 /* Build configuration list for PBXNativeTarget "MangKit" */;
+			buildConfigurationList = 35E820FFE4CFE79DD23AB90545233D93 /* Build configuration list for PBXNativeTarget "MangKit" */;
 			buildPhases = (
-				BD87EF2296EAC2C33147771F8D466511 /* Headers */,
-				0454997254F36AE0CE99228536E8E075 /* Sources */,
-				9B3BD853C96C387643B3D4E804BF5F48 /* Frameworks */,
-				A5978B2852AD367EE33FB4558EC6197D /* Resources */,
+				1DEC6BA3C0871AF0385175B3606232F5 /* Headers */,
+				67FC352DFB375681941961C32B4BBA0E /* Sources */,
+				DA933534121E5C3FA0572E81C404801D /* Frameworks */,
+				8A27BFD93A3721E9B0F62E5E7140F366 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -647,66 +683,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5978B2852AD367EE33FB4558EC6197D /* Resources */ = {
+		8A27BFD93A3721E9B0F62E5E7140F366 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220A8425E278DEB9F1BEC3B10789366B /* icon_mk_clear.png in Resources */,
+				87A6452E401751AA38253EFB1B0BF814 /* icon_mk_debug.png in Resources */,
+				20AF1A445F188F08ADE0E5F406908D33 /* icon_mk_H5.png in Resources */,
+				E70D3225CFE44A1ED824049BBFDF0F27 /* icon_mk_log.png in Resources */,
+				4CB224ACCDAAC399C1C24FB33AECBBF9 /* icon_mk_network.png in Resources */,
+				B5AD639949C06F30ADA6FB879678BDD5 /* icon_mk_scan.png in Resources */,
+				A636473B859A801A1A13880AD74D751D /* MKH5ViewController.xib in Resources */,
+				8141597D58B11BAA00FABEDD35667F9F /* MKJSBridgeListViewController.xib in Resources */,
+				4183DA657475575D6691B3855E1A8723 /* MKListTableViewCell.xib in Resources */,
+				B7B7B53D2752C3BBA415A6EC36CEE0A6 /* MKMenuCollectionReusableView.xib in Resources */,
+				CD92D6CF62DC09B06FCEE3DA25FE4C32 /* MKMenuCollectionViewCell.xib in Resources */,
+				7440C071F2D8CDFA0F7784C4CDB4844B /* MKMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0454997254F36AE0CE99228536E8E075 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D582812A8CC7CE9ED9D55F9166491FF /* AESCipher.swift in Sources */,
-				8B5390958FE22FD21DEC78CFDFC50578 /* MangKit-dummy.m in Sources */,
-				7646E0EE910F3125F62A34993A7114A8 /* MK.swift in Sources */,
-				A8D9E835D1F4F07A97696D8AABE9B4E7 /* MKAssets.swift in Sources */,
-				501F91D1FD0BA98334BBA31F63CAC80C /* MKAuthenticationChallengeSender.swift in Sources */,
-				3E4841335202BE89C760D3039DB84A21 /* MKConstants.swift in Sources */,
-				7BB244CEA4AD0B6CE2E6ACC21443A9BE /* MKDetailsController.swift in Sources */,
-				3F80D15C088888A526883EB912D10D90 /* MKDetailsController_iOS.swift in Sources */,
-				E788C07B9D7BE7C103360C9B16393CE7 /* MKFloatingBtn.swift in Sources */,
-				6E0BF7862337CC9A618E92C34C170E92 /* MKFuncModel.swift in Sources */,
-				1C51FE61115CFE75C46EA57ECA8E0AE7 /* MKGenericBodyDetailsController.swift in Sources */,
-				665FE319761B30A1EB083F72BC719E01 /* MKGenericController.swift in Sources */,
-				A579081F7C85396733CACDD0BE817020 /* MKH5ViewController.swift in Sources */,
-				2FBB25A932D998992AD2F2ADA8B1573B /* MKHelper.swift in Sources */,
-				C57AFBA291E78786C236D766272FD20D /* MKHelper_iOS.swift in Sources */,
-				B51F5FBB98A9D53AFDB5C745F124C586 /* MKHTTPModel.swift in Sources */,
-				DFADE2803B6B8A1D8BE244D0ED2FEB45 /* MKHTTPModelManager.swift in Sources */,
-				33C37BE46530E833171C5A9F0668BC26 /* MKImageBodyDetailsController.swift in Sources */,
-				B2206C1AAF9196E5EB456C7943DEC75C /* MKInfoController.swift in Sources */,
-				23A158F9BE4BA72AF7E94135735C9016 /* MKInfoController_iOS.swift in Sources */,
-				20145902EDEEA1C2CD367A9A4DB15684 /* MKJSBridgeListViewController.swift in Sources */,
-				CF3632F7848B2EF16CC69B0269B9F714 /* MKJSModelManager.swift in Sources */,
-				7E9E20A40BEFAE2C758A104DA044C493 /* MKListController.swift in Sources */,
-				70A4F3F3DE2965D4560A5D907CC2988F /* MKListController_iOS.swift in Sources */,
-				BD8CC999DE8D2E2C26C8F14E0F850CBE /* MKListTableViewCell.swift in Sources */,
-				A6CA9942C58BD78C52723E966C582AF0 /* MKMenuCollectionReusableView.swift in Sources */,
-				0935CAF3CA72C964483A2724A0FB2434 /* MKMenuCollectionViewCell.swift in Sources */,
-				10613CABBF3A836EA40067C51BA2A6BA /* MKMenuFuncDelegate.swift in Sources */,
-				128365B95AA45488772A3627A1530321 /* MKMenuViewController.swift in Sources */,
-				08F2739C9CB1C554190A3D67EDCD60D8 /* MKProtocol.swift in Sources */,
-				E4E76B1976C40C98425AE1DD27034E27 /* MKRawBodyDetailsController.swift in Sources */,
-				8373C5AA3CE8E5055399477EF92DEC12 /* MKSessionConfiguration.swift in Sources */,
-				046A35E6C647ED690156E8E6796AF52C /* MKSettingsController.swift in Sources */,
-				D4584C40E4CBD3647A1F8FCCDA0EACEF /* MKSettingsController_iOS.swift in Sources */,
-				69AC27AB65F4BD7019E69D77CA6A1162 /* MKStatisticsController.swift in Sources */,
-				620F13CB501502C0B46DEE9FDC4F4EE1 /* MKStatisticsController_iOS.swift in Sources */,
-				312B800632B2BA428D9378D3ED14FD68 /* MKURLDetailsController.swift in Sources */,
-				BC6B3BE8B49E8B0FF456FF66E2D1790D /* NFXConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F6E8863BB3D64D85ABBDAAB9EB427E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13CF573644AB6FAB4F300B76AC719E7D /* Pods-MangKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FC352DFB375681941961C32B4BBA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814D3A9405F5FFB0C7C7E10ABE75CAC7 /* AESCipher.swift in Sources */,
+				8C50924FE349F1600CC3786BCBFD7236 /* MangKit-dummy.m in Sources */,
+				0EA87AD0670E7EE174D0AD9B4190E5A1 /* MK.swift in Sources */,
+				A6F66C28E7DFE93E49773651A509B522 /* MKAssets.swift in Sources */,
+				6B05F57953A99D561E9CDA7EB5919DE2 /* MKAuthenticationChallengeSender.swift in Sources */,
+				AFB482171C7AA0D2B1B96FEA72A91D3C /* MKConstants.swift in Sources */,
+				404702B5B4B2B7EB9A066C184A70B3AE /* MKDetailsController.swift in Sources */,
+				045A74C4F5C2B2352AFCE71F72174D60 /* MKDetailsController_iOS.swift in Sources */,
+				246D0C40CB91E2AA7870828B08EDBE82 /* MKFloatingBtn.swift in Sources */,
+				B12FB203AC8D9F6EA3EF65483F8908D9 /* MKFuncModel.swift in Sources */,
+				D7C18E48E764AC956872A13130564C16 /* MKGenericBodyDetailsController.swift in Sources */,
+				AABB0054DC63F32FD46B6A68CA5C23C1 /* MKGenericController.swift in Sources */,
+				2049399F327000AC0DC04EB3B0BE809A /* MKH5ViewController.swift in Sources */,
+				27E853C3C033074D9836B29EECCF3CE3 /* MKHelper.swift in Sources */,
+				70840EBDF7DF27F07C832FFF495824AA /* MKHelper_iOS.swift in Sources */,
+				CA429B4B68C1BC7F1922115306CE1DB1 /* MKHTTPModel.swift in Sources */,
+				B2C51230C39567B1FE7E49A9406BEE39 /* MKHTTPModelManager.swift in Sources */,
+				2A61296A266503F8DD716D2B9FEA206B /* MKImageBodyDetailsController.swift in Sources */,
+				B5D7EF0242AB5A7C22D3F8B51607AF81 /* MKInfoController.swift in Sources */,
+				D09CE6F3EF21E587ADECE70E4EF200C5 /* MKInfoController_iOS.swift in Sources */,
+				4DBB1458010A2A8D37589B4C7A186003 /* MKJSBridgeListViewController.swift in Sources */,
+				3BC541298F39EC7D6C88E4547BD3CAFD /* MKJSModelManager.swift in Sources */,
+				92135747D1752C5B3900AE60C10F1FF6 /* MKListController.swift in Sources */,
+				961F8D285B3C482A07EA252095D3EB69 /* MKListController_iOS.swift in Sources */,
+				D5F9207F8B617B7B1ABA7D78709508FC /* MKListTableViewCell.swift in Sources */,
+				FE0941465A589DC3A5F5E78F83ED4C39 /* MKMenuCollectionReusableView.swift in Sources */,
+				5C9BE7EBB02D1CB590433E57C68A6F37 /* MKMenuCollectionViewCell.swift in Sources */,
+				6ABF3187F2265778B744446AE4F7CE4B /* MKMenuFuncDelegate.swift in Sources */,
+				370025539C9AE71825B54953982BC542 /* MKMenuViewController.swift in Sources */,
+				9048AAA8BDD11EF4E0A979AB8E2FA319 /* MKProtocol.swift in Sources */,
+				19C63712AB2F60806700B40EEEED9F4E /* MKRawBodyDetailsController.swift in Sources */,
+				5CF6B84231355D4E0AEAA548918F3D07 /* MKSessionConfiguration.swift in Sources */,
+				F27EE22574DE5894F300842F13FC27C1 /* MKSettingsController.swift in Sources */,
+				CDB64360B2204626C77F78135A767703 /* MKSettingsController_iOS.swift in Sources */,
+				6F3E6168E7162ECAA06A27BAB5312C66 /* MKStatisticsController.swift in Sources */,
+				66F9FE17556B85F97B7376F7631A93C7 /* MKStatisticsController_iOS.swift in Sources */,
+				14F71BEAEF027073FBDE96845B417535 /* MKURLDetailsController.swift in Sources */,
+				B4AF3E0B7F10891B962C6F8239DDF1C8 /* NFXConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,23 +785,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29052A25E21AC43C9848DC280048845A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = A445879EE487A3AD104EF9A95DA5F33A /* PBXContainerItemProxy */;
-		};
-		4BD06EF64E0944A8F12F6A20C6D5ECC1 /* PBXTargetDependency */ = {
+		5B3A6CEE5A4B6E7D24C28194EE1E4D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MangKit_Example";
 			target = 3E4869DF50150CAB5E94ED96C6BC6EA4 /* Pods-MangKit_Example */;
-			targetProxy = A2162378F2C422CD1B0846D7975F736B /* PBXContainerItemProxy */;
+			targetProxy = 9F4EFA007C0FF7E26928BC32283E50EF /* PBXContainerItemProxy */;
 		};
-		DB6F40F79CE68012ADE55A66069E5A5D /* PBXTargetDependency */ = {
+		BFFC0EEAB1829280C690CDDCD470EA0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MangKit;
 			target = D0148BC61E0ADC0066CE0A7DC324B76A /* MangKit */;
-			targetProxy = F57E35BA78628D51451F5115B0D0E8D1 /* PBXContainerItemProxy */;
+			targetProxy = D468B4C1C824D2DABC770556B6B89411 /* PBXContainerItemProxy */;
+		};
+		E8D2CD4E306542D6126CD5D694146A05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = C07554F7535DFE1DBDCF185FD61BE90F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -782,6 +830,38 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18D545C6E26A7CCB38511D7FDEB24813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C1E24859DE883011349376E01663AE /* MangKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MangKit/MangKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MangKit/MangKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MangKit/MangKit.modulemap";
+				PRODUCT_MODULE_NAME = MangKit;
+				PRODUCT_NAME = MangKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -948,38 +1028,6 @@
 			};
 			name = Debug;
 		};
-		A8114B903F0239C8978FF63A923A4DE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7050EF81F23C91FDC9AA1F55F8BB82D /* MangKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MangKit/MangKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MangKit/MangKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MangKit/MangKit.modulemap";
-				PRODUCT_MODULE_NAME = MangKit;
-				PRODUCT_NAME = MangKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C87943441F0595EDC112091D831ECD4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C21FB3F80C68F0F80EA19A587C6FD8CE /* Pods-MangKit_Tests.release.xcconfig */;
@@ -1013,37 +1061,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		CCD751FCFB606F6660EEDAE23570657E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F185BCD80F28DD6ACCC4222936AB286B /* MangKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MangKit/MangKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MangKit/MangKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MangKit/MangKit.modulemap";
-				PRODUCT_MODULE_NAME = MangKit;
-				PRODUCT_NAME = MangKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1144,6 +1161,37 @@
 			};
 			name = Debug;
 		};
+		DF7DE7DAC83CB1D9774881D4908D59FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0425F84BD3E066621370E5093752931 /* MangKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MangKit/MangKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MangKit/MangKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MangKit/MangKit.modulemap";
+				PRODUCT_MODULE_NAME = MangKit;
+				PRODUCT_NAME = MangKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1152,6 +1200,15 @@
 			buildConfigurations = (
 				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
 				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E820FFE4CFE79DD23AB90545233D93 /* Build configuration list for PBXNativeTarget "MangKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7DE7DAC83CB1D9774881D4908D59FD /* Debug */,
+				18D545C6E26A7CCB38511D7FDEB24813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1179,15 +1236,6 @@
 			buildConfigurations = (
 				39A2CEE63BACE47118673B765FF2BFF9 /* Debug */,
 				511D2143AC65974EDEE5B19BB8BA70A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC7D9DFF612CB2F9E3A1B19649999252 /* Build configuration list for PBXNativeTarget "MangKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCD751FCFB606F6660EEDAE23570657E /* Debug */,
-				A8114B903F0239C8978FF63A923A4DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

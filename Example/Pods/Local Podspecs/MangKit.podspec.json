@@ -1,6 +1,6 @@
 {
   "name": "MangKit",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A short description of MangKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/denglei022/MangKit",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/denglei022/MangKit.git",
-    "tag": "0.1.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "MangKit/Classes/**/*"
+  "source_files": "MangKit/Classes/**/*",
+  "resources": "MangKit/{Assets,Classes}/**/*.{xcassets,png,xib}"
 }

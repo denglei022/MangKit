@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MangKit'
-  s.version          = '0.1.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of MangKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MangKit/Classes/**/*'
+  s.resources = 'MangKit/{Assets,Classes}/**/*.{xcassets,png,xib}'
   
   # s.resource_bundles = {
   #   'MangKit' => ['MangKit/Assets/*.png']
