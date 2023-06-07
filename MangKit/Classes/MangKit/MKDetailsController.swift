@@ -96,7 +96,7 @@ class MKDetailsController: MKGenericController {
             tempString += Constants.tooLongToShowTitle.rawValue
         } else {
             if object.requestURL?.hasPrefix(MKDetailsController.encryptURL) == true || object.requestURL?.hasPrefix(MKDetailsController.encryptJavaURL) == true{
-                tempString += "\(SDISApiTool().Decrypt(result: object.getRequestBody()).jsonString(prettify: true) ?? "")\n"
+                tempString += "\(aesDecryptString(content: object.getRequestBody()) ?? "")\n"
             }else{
                 tempString += "\(object.getRequestBody())\n"
             }
@@ -134,7 +134,7 @@ class MKDetailsController: MKGenericController {
             tempString += Constants.tooLongToShowTitle.rawValue
         } else {
             if object.requestURL?.hasPrefix(MKDetailsController.encryptURL) == true || object.requestURL?.hasPrefix(MKDetailsController.encryptJavaURL) == true{
-                tempString += "\(SDISApiTool().Decrypt(result: object.getResponseBody()).jsonString(prettify: true) ?? "")\n"
+                tempString += "\(aesDecryptString(content: object.getRequestBody()) ?? "")\n"
             }else{
                 tempString += "\(object.getResponseBody())\n"
             }

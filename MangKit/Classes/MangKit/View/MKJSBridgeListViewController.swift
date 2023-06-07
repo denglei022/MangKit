@@ -115,7 +115,7 @@ class MKJSBridgeListViewController: MKListController, UITableViewDataSource , UI
         cell.selectionStyle = .none
         cell.textLabel?.text = logData[indexPath.row]
         cell.textLabel?.numberOfLines = 0
-        cell.textLabel?.font = UIFont.fontWithSize(size: 14)
+        cell.textLabel?.font = UIFont.systemFont(ofSize: 14)
         return cell
     }
 

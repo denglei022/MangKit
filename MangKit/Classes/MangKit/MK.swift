@@ -21,6 +21,8 @@ let btnWidth = 60.0
 @objc
 open class MK: NSObject {
 
+    public var mkMenuDelegate: MKMenuFuncDelegate?
+    
     fileprivate var navigationViewController: UINavigationController?
     
     fileprivate enum Constants: String {
@@ -156,7 +158,7 @@ open class MK: NSObject {
         UserDefaults.standard.synchronize()
         self.logoBtn.isHidden = false
         currentWindow()?.addSubview(self.logoBtn)
-        currentWindow()?.bringSubviewToFront(self.logoBtn)
+        currentWindow()?.bringSubview(toFront: self.logoBtn)
     }
     
     @objc open func hideLogo() {
@@ -298,7 +300,7 @@ open class MK: NSObject {
     }
     
     lazy var logoBtn: MKFloatingBtn = {
-        let button = MKFloatingBtn(frame: CGRect(x: (currentWindow()?.width ?? 50) - 50, y: (currentWindow()?.height ?? 0)/2 - 25, width: 50, height: 50))
+        let button = MKFloatingBtn(frame: CGRect(x: (currentWindow()?.frame.width ?? 50) - 50, y: (currentWindow()?.frame.height ?? 0)/2 - 25, width: 50, height: 50))
         button.setImage(UIImage(named: "icon_mk_logo"), for: .normal)
         button.delegate = self
         button.layer.cornerRadius = 16

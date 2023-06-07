@@ -36,13 +36,15 @@ class MKRawBodyDetailsController: MKGenericBodyDetailsController {
         switch bodyType {
             case .request:
             if selectedModel.requestURL?.hasPrefix(MKDetailsController.encryptURL) == true{
-                bodyView.text = SDISApiTool().Decrypt(result: selectedModel.getRequestBody()).jsonString(prettify: true)
+                bodyView.text = aesDecryptString(content: selectedModel.getRequestBody())
+//                bodyView.text = SDISApiTool().Decrypt(result: selectedModel.getRequestBody()).jsonString(prettify: true)
             }else{
                 bodyView.text = selectedModel.getRequestBody() as String
             }
             default:
             if selectedModel.requestURL?.hasPrefix(MKDetailsController.encryptURL) == true{
-                bodyView.text =  SDISApiTool().Decrypt(result: selectedModel.getResponseBody()).jsonString(prettify: true)
+                bodyView.text = aesDecryptString(content: selectedModel.getRequestBody())
+//                bodyView.text =  SDISApiTool().Decrypt(result: selectedModel.getResponseBody()).jsonString(prettify: true)
             }else{
                 bodyView.text =  selectedModel.getResponseBody() as String
             }

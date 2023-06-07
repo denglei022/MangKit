@@ -32,7 +32,7 @@ class MKListTableViewCell: UITableViewCell {
         self.statusLabel.text = "\(obj.responseStatus ?? 0)"
         var length =  "\(String(format:"%.2f",obj.responseBodyLength ?? 0.0))b"
         if obj.responseBodyLength ?? 0 > 1024{
-            length = "\("\(String(format:"%.2f",(obj.responseBodyLength?.float ?? 0.0)/1024.0))")kb"
+            length = "\("\(String(format:"%.2f",(Float(obj.responseBodyLength ?? 0))/1024.0))")kb"
         }
         self.sizeLabel.text = length
         self.contentTypeLabel.text =  obj.requestType

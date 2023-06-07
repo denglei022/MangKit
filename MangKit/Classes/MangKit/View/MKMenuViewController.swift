@@ -14,6 +14,7 @@ class MKMenuViewController: MKViewController {
     @IBOutlet weak var closeSwitch: UISwitch!
     var list = [MKFuncModel]()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +25,7 @@ class MKMenuViewController: MKViewController {
         myCollectionView.dataSource = self;
 
         myCollectionView.register(UINib(nibName: "MKMenuCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: NSStringFromClass(MKMenuCollectionViewCell.self))
-        myCollectionView.register(UINib(nibName: "MKMenuCollectionReusableView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: NSStringFromClass(MKMenuCollectionReusableView.self))
+        myCollectionView.register(UINib(nibName: "MKMenuCollectionReusableView", bundle: nil), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: NSStringFromClass(MKMenuCollectionReusableView.self))
         
         self.initData()
         myCollectionView.reloadData()
@@ -67,11 +68,11 @@ extension MKMenuViewController: UICollectionViewDelegate, UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSizeMake(view.width, 40)
+        return CGSizeMake(view.frame.width, 40)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSizeMake(self.view.width / 4 - 10, 80)
+        return CGSizeMake(self.view.frame.width / 4 - 10, 80)
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -93,9 +94,12 @@ extension MKMenuViewController: UICollectionViewDelegate, UICollectionViewDataSo
         switch (model.title){
         case "网络抓包":
             self.navigationController?.pushViewController(MKListController_iOS(), animated: true)
+            break
         case "环境切换":
-            let vc = SDIConfigEnvViewController.init(viewModel: SDIConfigEnvViewModel.init(services: SDIToolClass().BTSharedAppDelegates().services, params: nil))
-            self.navigationController?.pushViewController(vc!)
+//            let vc = SDIConfigEnvViewController.init(viewModel: SDIConfigEnvViewModel.init(services: SDIToolClass().BTSharedAppDelegates().services, params: nil))
+//            self.navigationController?.pushViewController(vc!)
+            MK.sharedInstance().mkMenuDelegate?.configEnv()
+            break
         case "H5任意门":
             self.navigationController?.pushViewController(MKH5ViewController(), animated: true)
             break
@@ -103,16 +107,17 @@ extension MKMenuViewController: UICollectionViewDelegate, UICollectionViewDataSo
             self.navigationController?.pushViewController(MKJSBridgeListViewController(), animated: true)
             break
         case "清除缓存":
-            DLCommenHelper.clearWebCache()
-            SDISDefaults[.h5Version] = "0"
-            //预下载h5更新包
-            let viewModel = SDIDownloadH5ViewModel.init(services: SDIToolClass().BTSharedAppDelegates().services!, params: nil)
-            viewModel?.getOnlineH5VersionCommand.execute(nil)
-            let sdImageCache = SDImageCache.shared
-            sdImageCache.clearMemory()
-            sdImageCache.clearDisk {
-                MBProgressHUD.showSuccess("缓存已清理", to: nil)
-            }
+            MK.sharedInstance().mkMenuDelegate?.clearMKCache()
+//            DLCommenHelper.clearWebCache()
+//            SDISDefaults[.h5Version] = "0"
+//            //预下载h5更新包
+//            let viewModel = SDIDownloadH5ViewModel.init(services: SDIToolClass().BTSharedAppDelegates().services!, params: nil)
+//            viewModel?.getOnlineH5VersionCommand.execute(nil)
+//            let sdImageCache = SDImageCache.shared
+//            sdImageCache.clearMemory()
+//            sdImageCache.clearDisk {
+//                MBProgressHUD.showSuccess("缓存已清理", to: nil)
+//            }
             break
         default:
             break
