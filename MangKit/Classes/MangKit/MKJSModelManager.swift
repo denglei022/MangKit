@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MKJSModelManager: NSObject {
+public class MKJSModelManager: NSObject {
     @objc static let shared = MKJSModelManager()
     
     let publisher = Publisher<[String]>()
