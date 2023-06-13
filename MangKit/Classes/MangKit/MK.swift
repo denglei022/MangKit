@@ -152,13 +152,21 @@ open class MK: NSObject {
         showMK()
     }
     
+    @objc open func isShowLogo() -> Bool{
+        return !self.logoBtn.isHidden
+    }
+    
+    @objc open func getLogoBtn() -> UIView{
+        return self.logoBtn
+    }
+    
     @objc open func showLogo() {
         guard started else { return }
         UserDefaults.standard.set(true, forKey: "isShowLogo")
         UserDefaults.standard.synchronize()
         self.logoBtn.isHidden = false
         currentWindow()?.addSubview(self.logoBtn)
-        currentWindow()?.bringSubview(toFront: self.logoBtn)
+        currentWindow()?.bringSubviewToFront(self.logoBtn)
     }
     
     @objc open func hideLogo() {
@@ -301,7 +309,7 @@ open class MK: NSObject {
     
     lazy var logoBtn: MKFloatingBtn = {
         let button = MKFloatingBtn(frame: CGRect(x: (currentWindow()?.frame.width ?? 50) - 50, y: (currentWindow()?.frame.height ?? 0)/2 - 25, width: 50, height: 50))
-        button.setImage(UIImage(named: "icon_mk_logo"), for: .normal)
+        button.setImage(MangUtil.sharedInstance().getImage(named: "icon_mk_logo", forClass: MKFloatingBtn.self), for: .normal)
         button.delegate = self
         button.layer.cornerRadius = 16
         button.layer.zPosition = 999
@@ -336,7 +344,7 @@ extension MK {
     }
     
     fileprivate func showMK(on rootViewController: UIViewController?) {
-        let navigationController = UINavigationController(rootViewController: MKMenuViewController())
+        let navigationController = UINavigationController(rootViewController: MKMenuViewController(nibName: "MKMenuViewController", bundle: MangUtil.sharedInstance().getBundle(forClass: MKMenuViewController.self)))
         navigationController.navigationBar.isTranslucent = false
         navigationController.navigationBar.tintColor = UIColor.MKOrangeColor()
         navigationController.navigationBar.barTintColor = UIColor.MKStarkWhiteColor()

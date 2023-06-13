@@ -154,7 +154,7 @@ class MKFloatingBtn: UIButton {
         self.isHasMove = false
         // 将计时器加入runloop
         if let temptime = self.timer {
-            RunLoop.current.add(temptime, forMode: RunLoopMode.commonModes)
+            RunLoop.current.add(temptime, forMode: RunLoop.Mode.common)
         }
     }
     

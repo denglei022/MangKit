@@ -30,12 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MangKit/Classes/**/*'
-  s.resources = 'MangKit/{Assets,Classes}/**/*.{xcassets,png,xib}'
-  
-  # s.resource_bundles = {
-  #   'MangKit' => ['MangKit/Assets/*.png']
-  # }
+  s.source_files = 'MangKit/Classes/**/*.swift'
+#  s.resources = 'MangKit/{Assets}/**/*.{xcassets,png}'
+#  s.resource_bundles = 'MangKit/Classes/**/*.xib'
+   s.resource_bundles = {
+     'MangKit' => ['MangKit/{Assets}/**/*.{xcassets,png}','MangKit/{Assets,Classes}/**/*.{xib}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

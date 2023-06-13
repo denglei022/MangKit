@@ -9,7 +9,7 @@
 import UIKit
 
 public class MKJSModelManager: NSObject {
-    @objc static let shared = MKJSModelManager()
+    @objc public static let shared = MKJSModelManager()
     
     let publisher = Publisher<[String]>()
     
@@ -21,7 +21,7 @@ public class MKJSModelManager: NSObject {
     }
     
     /// Thread safe
-    @objc func add(_ obj: String) {
+    @objc public func add(_ obj: String) {
         DispatchQueue.main.async {
             self.models.insert(obj, at: 0)
         }

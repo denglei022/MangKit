@@ -19,6 +19,6 @@ class MKMenuCollectionViewCell: UICollectionViewCell {
 
     func configForObject(_ obj: MKFuncModel) {
         self.titleLabel.text = obj.title
-        self.titleImageView.image = UIImage(named: obj.imageUrl ?? "")
+        self.titleImageView.image = MangUtil.sharedInstance().getImage(named: obj.imageUrl ?? "", forClass: MKFloatingBtn.self)
     }
 }

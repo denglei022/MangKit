@@ -21,7 +21,7 @@
   "source_files": "MangKit/Classes/**/*.swift",
   "resource_bundles": {
     "MangKit": [
-      "MangKit/{Assets}/**/*.{xcassets,png}",
+      "MangKit/{Assets,Classes}/**/*.{xcassets,png}",
       "MangKit/{Assets,Classes}/**/*.{xib}"
     ]
   }
