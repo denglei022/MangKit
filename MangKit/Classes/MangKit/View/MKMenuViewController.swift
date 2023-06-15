@@ -106,7 +106,7 @@ extension MKMenuViewController: UICollectionViewDelegate, UICollectionViewDataSo
             self.navigationController?.pushViewController(MKH5ViewController(nibName: NSStringFromClass(MKH5ViewController.self), bundle: MangUtil.sharedInstance().getBundle(forClass: MKH5ViewController.self)), animated: true)
             break
         case "日志":
-            self.navigationController?.pushViewController(MKJSBridgeListViewController(nibName: NSStringFromClass(MKJSBridgeListViewController.self), bundle: MangUtil.sharedInstance().getBundle(forClass: MKJSBridgeListViewController.self)), animated: true)
+            self.navigationController?.pushViewController(MKJSBridgeListViewController(), animated: true)
             break
         case "清除缓存":
             MK.sharedInstance().mkMenuDelegate?.clearMKCache()
