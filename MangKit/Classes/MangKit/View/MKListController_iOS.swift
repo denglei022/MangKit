@@ -36,7 +36,7 @@ class MKListController_iOS: MKListController, UITableViewDelegate, UITableViewDa
         tableView.separatorInset = .zero
         view.addSubview(self.tableView)
         
-        tableView.register(UINib(nibName: "MKListTableViewCell", bundle: nil), forCellReuseIdentifier: NSStringFromClass(MKListTableViewCell.self))
+        tableView.register(UINib(nibName: "MKListTableViewCell", bundle: MangUtil.sharedInstance().getBundle(forClass: MKListController_iOS.self)), forCellReuseIdentifier: NSStringFromClass(MKListTableViewCell.self))
 
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage.MKClose(), style: .plain, target: self, action: #selector(MKListController_iOS.closeButtonPressed))
 
