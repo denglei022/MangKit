@@ -103,7 +103,7 @@ extension MKMenuViewController: UICollectionViewDelegate, UICollectionViewDataSo
             MK.sharedInstance().mkMenuDelegate?.configEnv()
             break
         case "H5任意门":
-            self.navigationController?.pushViewController(MKH5ViewController(nibName: NSStringFromClass(MKH5ViewController.self), bundle: MangUtil.sharedInstance().getBundle(forClass: MKH5ViewController.self)), animated: true)
+            self.navigationController?.pushViewController(MKH5ViewController(nibName: "MKH5ViewController", bundle: MangUtil.sharedInstance().getBundle(forClass: MKH5ViewController.self)), animated: true)
             break
         case "日志":
             self.navigationController?.pushViewController(MKJSBridgeListViewController(), animated: true)
